@@ -7,7 +7,7 @@ import { Separator } from "~/components/ui/separator";
 export function Announcement() {
   return (
     <Link
-      href="/releases"
+      href="/blog"
       className="inline-flex items-center rounded-full border border-purple-600 border-opacity-0 bg-muted py-1 pl-1 pr-3 text-sm font-medium outline-none ring-0 ring-purple-600 ring-opacity-0 transition-all duration-500 ease-out hover:border-opacity-100 hover:ring-[3px] hover:ring-opacity-30 focus:ring-[3px] focus:ring-opacity-30 active:border-opacity-100 active:ring-[1px] active:ring-opacity-30"
     >
       <Badge>New</Badge>{" "}
